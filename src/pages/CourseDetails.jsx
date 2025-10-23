@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { FaStar } from "react-icons/fa";
 import useFetch from "../hook/useFetch";
+import BookForm from "../Components/BookForm";
 
 const CourseDetails = () => {
   const { data, loading, error } = useFetch();
@@ -15,9 +16,9 @@ const CourseDetails = () => {
   const match = data.find((d) => d.id === id);
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
-  if (!match) {
-    return <AppNotFound />;
-  }
+  // if (!match) {
+  //   return <AppNotFound />;
+  // }
 
   console.log(match)
 
@@ -50,14 +51,7 @@ const CourseDetails = () => {
 
 
 
-  const [formData, setFormData] = useState({ name: "", email: "" });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    toast.success("✅ Session booked successfully!");
-    setFormData({ name: "", email: "" }); // Clear form after submit
-  };
-
+  
   return (
     <div className="max-w-4xl mx-auto p-5 md:p-10">
       {/* Image */}
@@ -108,52 +102,7 @@ const CourseDetails = () => {
         </p>
       </div>
 
-      {/* Book Session Form */}
-      <div className="mt-8 bg-white shadow-lg rounded-xl p-6">
-        <h3 className="text-xl font-semibold text-center mb-4">Book a Session</h3>
-
-        <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Name */}
-          <div>
-            <label className="block font-medium mb-1">Name</label>
-            <input
-              type="text"
-              required
-              placeholder="Enter your name"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
-              value={formData.name}
-              onChange={(e) =>
-                setFormData({ ...formData, name: e.target.value })
-              }
-            />
-          </div>
-
-          {/* Email */}
-          <div>
-            <label className="block font-medium mb-1">Email</label>
-            <input
-              type="email"
-              required
-              placeholder="Enter your email"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
-              value={formData.email}
-              onChange={(e) =>
-                setFormData({ ...formData, email: e.target.value })
-              }
-            />
-          </div>
-
-          {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-2 rounded-lg transition"
-          >
-            Submit
-          </button>
-        </form>
-      </div>
-
-      <ToastContainer position="top-center" autoClose={1500} />
+      <BookForm/>
     </div>
   );
 };
