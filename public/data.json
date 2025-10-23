@@ -1,0 +1,111 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Basic Quran Reading",
+    "providerName": "Ustad Abdul Rahman",
+    "providerEmail": "rahman@learnalquran.com",
+    "price": 15,
+    "rating": 4.9,
+    "slotsAvailable": 5,
+    "description": "Learn to read the Quran correctly with focus on Arabic letters, pronunciation, and Tajweed basics.",
+    "image": "https://images.unsplash.com/photo-1711202675885-d0a0ce63b5bf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "category": "Quran Reading"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Tajweed Mastery Course",
+    "providerName": "Ustadah Amina Siddiqah",
+    "providerEmail": "amina@learnalquran.com",
+    "price": 25,
+    "rating": 4.8,
+    "slotsAvailable": 4,
+    "description": "Deep dive into the rules of Tajweed to perfect your recitation with accuracy and beauty.",
+    "image": "https://images.unsplash.com/photo-1573483883644-d0b4b55eb25d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
+    "category": "Tajweed"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Quran Memorization (Hifz)",
+    "providerName": "Hafiz Omar Farooq",
+    "providerEmail": "omar@learnalquran.com",
+    "price": 30,
+    "rating": 4.7,
+    "slotsAvailable": 3,
+    "description": "Step-by-step Quran memorization program with revision and pronunciation guidance.",
+    "image": "https://images.unsplash.com/photo-1651309736651-c90a9b6ffe58?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "category": "Memorization"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Learn Arabic for Quran",
+    "providerName": "Dr. Yasir Qadri",
+    "providerEmail": "yasir@learnalquran.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 6,
+    "description": "Understand the Quran directly by learning essential Arabic grammar and vocabulary.",
+    "image": "https://images.unsplash.com/photo-1631148902202-a7aa5d651445?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=730",
+    "category": "Language"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Quran for Kids",
+    "providerName": "Ustadah Fatima Noor",
+    "providerEmail": "fatima@learnalquran.com",
+    "price": 12,
+    "rating": 4.9,
+    "slotsAvailable": 8,
+    "description": "Fun and interactive Quran lessons for children aged 5–12, focusing on love for Allah’s words.",
+    "image": "https://images.unsplash.com/photo-1589995635011-078e0bb91d11?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332",
+    "category": "Kids"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Quran Translation & Tafsir",
+    "providerName": "Sheikh Mahmud Hasan",
+    "providerEmail": "mahmud@learnalquran.com",
+    "price": 28,
+    "rating": 4.8,
+    "slotsAvailable": 4,
+    "description": "Study Quranic meanings, tafsir, and context to deepen your understanding of the Divine message.",
+    "image": "https://images.unsplash.com/photo-1643860637107-1fe96112525e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1073",
+    "category": "Tafsir"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Online Quran Recitation (Adults)",
+    "providerName": "Ustad Kareem Ullah",
+    "providerEmail": "kareem@learnalquran.com",
+    "price": 18,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "One-on-one live recitation sessions for adults to improve fluency and Tajweed application.",
+    "image": "https://images.unsplash.com/photo-1705320941669-4909d97cb5cc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074",
+    "category": "Recitation"
+  },
+  {
+    "skillId": 8,
+    "skillName": "Islamic Studies for Beginners",
+    "providerName": "Dr. Saifullah Khan",
+    "providerEmail": "saifullah@learnalquran.com",
+    "price": 22,
+    "rating": 4.5,
+    "slotsAvailable": 6,
+    "description": "Learn the basics of Islamic beliefs, history, and daily worship alongside Quranic guidance.",
+    "image": "https://images.unsplash.com/photo-1581583851779-4c0057735034?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332",
+    "category": "Islamic Studies"
+  },
+{
+    "skillId": 9,
+    "skillName": "Advanced Tajweed Practice",
+    "providerName": "Sheikh Ahmad Farid",
+    "providerEmail": "ahmad@learnalquran.com",
+    "price": 26,
+    "rating": 4.9,
+    "slotsAvailable": 3,
+    "description": "Perfect your Tajweed through intensive recitation drills and personalized feedback from certified experts.",
+    "image": "https://images.unsplash.com/photo-1649822574475-b4a49f3d8496?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "category": "Tajweed"
+  }
+
+]
