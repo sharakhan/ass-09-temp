@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router";
+import { Link } from "react-router";
 import MyLink from "./MyLink";
 
 const Navbar = () => {
@@ -36,6 +36,7 @@ const Navbar = () => {
               >
                 <li> <MyLink to={"/"}>Home</MyLink></li>
                 <li> <MyLink to={"/aboutUs"}>About Us</MyLink></li>
+                <li><MyLink to={"/course"}>Courses</MyLink></li>
                 <li><MyLink to={"/profile"}>My profile</MyLink></li>
               </ul>
             </div>
@@ -58,18 +59,18 @@ const Navbar = () => {
           {/* Center: NavLinks */}
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-             <li>
-            <MyLink to={"/"}>Home</MyLink>
-          </li>
               <li>
-            <MyLink to={"/aboutUs"}>About Us</MyLink>
-          </li>
+                <MyLink to={"/"}>Home</MyLink>
+              </li>
               <li>
-            <MyLink to={"/course"}>Course</MyLink>
-          </li>
-          <li>
-            <MyLink to={"/profile"}>My profile</MyLink>
-          </li>
+                <MyLink to={"/aboutUs"}>About Us</MyLink>
+              </li>
+              <li>
+                <MyLink to={"/course"}>Courses</MyLink>
+              </li>
+              <li>
+                <MyLink to={"/profile"}>My profile</MyLink>
+              </li>
             </ul>
           </div>
 

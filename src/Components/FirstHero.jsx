@@ -10,9 +10,9 @@ const FirstHero = () => {
         <div className="relative text-center text-white z-10 px-5 ">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Make Your Success a Priority.</h1>
             <p className="text-lg md:text-2xl mb-6">Begin your Educational Journey Today.
- 
- </p>
-            <button className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-full shadow-lg transition"> Login </button>
+
+            </p>
+
         </div>
     </section>);
 };

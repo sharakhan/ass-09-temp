@@ -75,8 +75,8 @@ Phone: ${form.phone}`);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Available Plans</h2>
-       <p className="text-sm text-gray-500 text-center mb-8">Perfect for learners who want focused, one-to-one guidance.</p>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-8">Available Plans</h2>
+       <p className="text-sm text-gray-500 text-center text-white mb-8">Perfect for learners who want focused, one-to-one guidance.</p>
 
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {plans.map((p) => (

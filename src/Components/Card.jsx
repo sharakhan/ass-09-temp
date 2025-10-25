@@ -1,21 +1,23 @@
 import MainCardContainer from "./MainCardContainer";
 import PageHeading from "./PageHeading";
 
-const Card = ({ datas }) => {
-  const skillName = "Our Quran Learning Courses";
-  const description =
-    "Deepen your understanding of the Holy Quran through structured lessons designed for beginners and advanced learners alike.";
-  const subtitle =
-    "Start your journey to mastering Quranic recitation, Tajweed, and translation — guided by expert teachers.";
-
+const Card = ({ 
+  datas = [], 
+  skillName = "Our Courses", 
+  description = " ", 
+  subtitle = " " 
+}) => {
   return (
-    <div className="max-w-7xl mx-auto px-5 mt-10 mb-16 text-center">
+    <div className="max-w-7xl mx-auto px-5 mt-14 mb-20 text-white ">
+      
       {/* Title & Subtitle */}
-      <PageHeading skillName={skillName} description={description} />
-      <p className="text-gray-600 mt-3 text-lg italic">{subtitle}</p>
+      <div className="text-center max-w-3xl mx-auto ">
+        <PageHeading skillName={skillName} description={description} />
+        <p className="text-gray-600 mt-3 text-lg italic">{subtitle}</p>
+      </div>
 
       {/* Course Cards */}
-      <div className="mt-10">
+      <div className="mt-12 animate-fadeIn ">
         <MainCardContainer datas={datas} />
       </div>
     </div>

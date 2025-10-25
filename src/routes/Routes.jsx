@@ -8,7 +8,8 @@ import Loading from "../Components/Loading";
 import Course from "../pages/Course";
 import CourseDetails from "../pages/CourseDetails";
 import Login from "../Components/Login";
-import Details from "../pages/Details";
+
+import Signup from "../Components/SignUp";
 
 
 export const router = createBrowserRouter([
@@ -55,6 +56,10 @@ export const router = createBrowserRouter([
         {
           path:"/login",
           element: <Login/>,
+        },
+        {
+          path:"/signup",
+          element: <Signup/>
         }
     ]
 }

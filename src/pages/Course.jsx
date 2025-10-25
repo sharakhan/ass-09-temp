@@ -36,11 +36,18 @@ const Course = () => {
     );
   });
 
-  const skillName = "SkillName";
-  const providerName ="Instructor";
+  const skillName = " ";
+  const providerName =" ";
 
   return (
-    <div className="max-w-7xl mx-auto px-5 mt-10">
+    
+    <div className="max-w-7xl mx-auto px-5 mt-10 ">
+      <div className="max-w-6xl mx-auto text-center">
+          <h1 className="text-4xl font-bold mb-4">Our Quran Learning Courses</h1>
+          <p className="text-lg max-w-2xl mx-auto text-gray-500">
+            Start your journey to mastering Quranic recitation, Tajweed, and translation — guided by expert teachers.
+          </p>
+        </div>
       {/* Header Card */}
       <Card skillName={skillName} providerName={providerName} />
 
